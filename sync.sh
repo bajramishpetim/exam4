@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /home/shpetim/script-repo
+cd /home/shpetim/exam4
 if [ "`git pull origin`" == "Already up-to-date." ] && [ "`git pull origin1`" == "Already up-to-date." ]
 then
     echo "Nothing to update!"
